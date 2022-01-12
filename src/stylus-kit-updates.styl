@@ -1,0 +1,55 @@
+measures.breakpoints.xxl = 1500px
+
+hover()
+  &:hover
+    { shift(arguments) } arguments
+
+/*
+
+RESPNDIVE PROPS
+
+Rename to -> breakponts
+
+*/
+
+xxl()
+  +moreThan(measures.breakpoints.xxl)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}
+      
+not-sm()
+  +lessThan(measures.breakpoints.sm)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}
+
+not-md()
+  +lessThan(measures.breakpoints.md)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}
+
+not-lg()
+  +lessThan(measures.breakpoints.lg)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}
+
+not-xl()
+  +lessThan(measures.breakpoints.xl)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}
+      
+not-xxl()
+  +lessThan(measures.breakpoints.xxl)
+    if arguments
+      __responsivePropsRender arguments
+    else
+      {block}

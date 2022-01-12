@@ -1,0 +1,66 @@
++b(header)
+  H = 4rem
+  
+  size 100vw H
+  padding .5rem
+  z-index (2 ** 10)
+  position fixed
+  colors grey white
+
+  +e(main)
+    display flex
+    flex-arrange space-between center
+  
+  +e(nav)
+    colors grey semi-white
+  
+    position fixed
+    md position relative
+    
+    inset H 0
+    md top 0
+    
+    width 75%
+    transform translateX(-100%)
+    transition transform .3s
+    
+    md width auto
+    md transform none
+    
+    padding-top 2rem
+    md padding-top 0
+    
+    height 100%
+    
+    +when(active)
+      transform none
+    
+  +e(item)
+    display block
+    md display inline
+    
+    padding 0.5rem 2rem
+    md padding 0
+    
+    font-size 1rem
+    sm 1.2rem
+    md 1rem
+    
+    margin-right 1.5rem
+    &:last-child
+      margin-right 0
+    
+    &:hover, &.is-active
+      color white
+      transition color 0.5s
+    
+  +e(logo)
+    height (H - 2)
+    md height (H - 1)
+    
+  +e(burger)
+    md display none !important // destroying fontawesome display
+    color inherit 
+    background transparent
+    border none
+    font-size (H - 2)

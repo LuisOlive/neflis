@@ -1,0 +1,12 @@
+mixin MiComponente({nombre, edad})
+  p Hola, soy #{nombre} y tengo #{edad} años
+  
+mixin For(datos)
+  each dato in datos
+    - const {nombre, edad} = dato
+    p Hola, soy #{nombre} y tengo #{edad} años
+  
+body
+  - const luis = {nombre: 'luis', edad: 17}
+  
+  +For([luis, luis, luis])

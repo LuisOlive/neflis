@@ -1,0 +1,17 @@
++prefix-classes('test-')
+  .bg
+    background var(--test-color)
+    
+  .border
+  .border-light
+    border solid 5px var(--test-color)
+    
+  .border-light
+    border-width 1px
+    
+testClassesColors = #89ff00 #00ecff #fe016e #f000ff #fff400 #f80 blue #21de93
+    
+for color, i in testClassesColors
+  testEq = format_('{}n + {}', length(testClassesColors) i+1)
+  { format_('*[class^="test-"]:nth-child({})', testEq) }
+    --test-color color

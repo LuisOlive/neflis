@@ -1,0 +1,10 @@
+extends _layout
+
+block main
+  include components/Banner
+  include components/Carousel
+  
+  +Banner(moviesAndSeries.main)
+  
+  +Carousel(moviesAndSeries.carousel)
+      

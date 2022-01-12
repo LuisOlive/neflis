@@ -1,0 +1,13 @@
++b(layer)
+  position absolute
+  inset 0
+  size 100%
+  
+  +m(base)
+    position relative
+    top 0
+    width 100%
+    
+  for xy in (16 9) (4 3) (2 1) (1 1)
+    +m(format_('{}-{}', xy))
+      padding-bottom (xy[1] / xy[0]) * 100%

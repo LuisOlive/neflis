@@ -1,0 +1,200 @@
+main:
+  title: Masacre en Texas
+  image: 91IROWtQDhMyRGRowpCw0BmnVkC
+  year: 2003
+  description:
+    Durante un viaje de Texas a México, un grupo de jóvenes recoge a una autoestopista
+    ensangrentada que asegura que es la única superviviente de una masacre ocurrida la noche
+    anterior en una casa cercana. Remake del clásico homónimo de Tobe Hooper (1974)
+
+carousel:
+  keepWatching:
+    - title: 'La Ley y el Orden: Unidad de Víctimas Especiales'
+      image: 84sFzAa4Gea3r2Zh6Qg2lxuJPMO
+    - title: Malcolm el de Enmedio
+      image: 5Nrh0PtHuU41f6F8m5WbGm2iEQa
+    - title: Los Simpson
+      image: hpU2cHC9tk90hswCFEpf5AtbqoL
+    - title: Danny Phantom
+      image: 7xu4vUaxIhehX34p15SoooYxpfL
+    - title: 'KND: Los chicos del barrio'
+      image: 4SZpc7jpBBWMMfY6HeZJkzCmOIk
+    - title: Las Chicas Superpoderosas
+      image: p7l4c1uI05xaGw0N1oXSAw14w75
+    - title: El laboratorio de Dexter
+      image: r98ZfA1CGbLzUnBxm5nHVlMfvvt
+    - title: shaggy y scooby-doo detectives
+      image: 1RVembMXcdUoai9CWMJfDSp5JVJ
+    - title: Drake y Josh
+      image: p18IKZfUeVz1oRfjtUC1UiD1jr8
+    - title: Manual de supervivencia escolar de Ned
+      image: 2jfrCFXvwkbfTNiCTQLLfpEAXIs
+
+    - title: El duende maldito en el barrio
+      image: 8HgPnuTTsyLNw7oeLFwP79NMfip
+    - title: La maldición de la llorona
+      image: 2OKpu0Z6zD4meBQ8bYZb4FtF1bi
+    - title: 'El Tigre: las aventuras de Manny Rivera'
+      image: ktEOv8xxqr8lxno7cO5ewsap46Z
+    - title: Mucha lucha
+      image: YxgCE30aQdxi86LwBflZI5esKV
+    - title: 'Bakugan: la batalla'
+      image: A3SwgVUJRAFftZtTunkYfe8VeTN
+    - title: Cars 2
+      image: 8T4Cc2Cq5xkYcKHoiVlhvIjOeIA
+    - title: 'Madagascar 3: Los Fugitivos'
+      image: pGa4217asjzjepco86110xLWjE4
+    - title: Kung Fu Panda 2
+      image: iKJNE3QV0wEc9VMFuHYSZVhmSN9
+    - title: Megamente
+      image: irpJXGiVr539uuspcQcNdkhS2lq
+    - title: Lluvia de Hamburguesas
+      image: iIvtWOkRgzprh6PRPEdnEcwGyM0
+    - title: Monstros vs aliens
+      image: bpGyWU18xZFTx2fKBBm1um1EPqm
+
+    - title: Chicas pesadas
+      image: 9srF91cNDqIrf2HtyMY4GpCtVms
+    - title: Annabelle viene a casa
+      image: jB98SrdXAYSbiprjIwc7WfVCuCV
+    - title: Los jóvenes titanes
+      image: hHwEptckXUwZM7XO2lxZ8w8upuU
+    - title: Isla del drama
+      image: uesigtATJKTf38YyUPuxD5X9YGj
+    - title: Pesadilla en la calle Elm
+      image: bH9EB4pPbm6BXH1J2cAn13txqRJ
+    - title: Viernes 13 (2009)
+      image: j1PzqAMU4LzUnz60q9EEqmeX24n
+    - title: it (eso)
+      image: hWfMYtUhguNzsnDkxlQ3dZNfhjI
+    - title: Death Note
+      image: brO0acsI82ikvp7S0yszhbUupiF
+    - title: Como si fuera la primera vez
+      image: lwgI787F1s5mzsOKL4bd4dZgnmy
+
+  forYou:
+    - title: El duende maldito en el barrio
+      image: 8HgPnuTTsyLNw7oeLFwP79NMfip
+    - title: La maldición de la llorona
+      image: 2OKpu0Z6zD4meBQ8bYZb4FtF1bi
+    - title: 'El Tigre: las aventuras de Manny Rivera'
+      image: ktEOv8xxqr8lxno7cO5ewsap46Z
+    - title: Cars 2
+      image: 8T4Cc2Cq5xkYcKHoiVlhvIjOeIA
+    - title: 'Madagascar 3: Los Fugitivos'
+      image: pGa4217asjzjepco86110xLWjE4
+    - title: Kung Fu Panda 2
+      image: iKJNE3QV0wEc9VMFuHYSZVhmSN9
+    - title: Megamente
+      image: irpJXGiVr539uuspcQcNdkhS2lq
+    - title: Lluvia de Hamburguesas
+      image: iIvtWOkRgzprh6PRPEdnEcwGyM0
+    - title: Monstros vs aliens
+      image: bpGyWU18xZFTx2fKBBm1um1EPqm
+
+    - title: Chicas pesadas
+      image: 9srF91cNDqIrf2HtyMY4GpCtVms
+    - title: Annabelle viene a casa
+      image: jB98SrdXAYSbiprjIwc7WfVCuCV
+    - title: Los jóvenes titanes
+      image: hHwEptckXUwZM7XO2lxZ8w8upuU
+    - title: Isla del drama
+      image: uesigtATJKTf38YyUPuxD5X9YGj
+    - title: Pesadilla en la calle Elm
+      image: bH9EB4pPbm6BXH1J2cAn13txqRJ
+    - title: Viernes 13 (2009)
+      image: j1PzqAMU4LzUnz60q9EEqmeX24n
+    - title: it (eso)
+      image: hWfMYtUhguNzsnDkxlQ3dZNfhjI
+    - title: Ratatouille
+      image: 4Zstpj8BiIrMeR1c8yVWpWunxAs
+    - title: Death Note
+      image: brO0acsI82ikvp7S0yszhbUupiF
+    - title: Como si fuera la primera vez
+      image: lwgI787F1s5mzsOKL4bd4dZgnmy
+
+    - title: 'La Ley y el Orden: Unidad de Víctimas Especiales'
+      image: 84sFzAa4Gea3r2Zh6Qg2lxuJPMO
+    - title: Malcolm el de Enmedio
+      image: 5Nrh0PtHuU41f6F8m5WbGm2iEQa
+    - title: Los Simpson
+      image: hpU2cHC9tk90hswCFEpf5AtbqoL
+    - title: Danny Phantom
+      image: 7xu4vUaxIhehX34p15SoooYxpfL
+    - title: 'KND: Los chicos del barrio'
+      image: 4SZpc7jpBBWMMfY6HeZJkzCmOIk
+    - title: Las Chicas Superpoderosas
+      image: p7l4c1uI05xaGw0N1oXSAw14w75
+    - title: El laboratorio de Dexter
+      image: r98ZfA1CGbLzUnBxm5nHVlMfvvt
+    - title: shaggy y scooby-doo detectives
+      image: 1RVembMXcdUoai9CWMJfDSp5JVJ
+    - title: Drake y Josh
+      image: p18IKZfUeVz1oRfjtUC1UiD1jr8
+    - title: Manual de supervivencia escolar de Ned
+      image: 2jfrCFXvwkbfTNiCTQLLfpEAXIs
+    - title: Hannah Montana
+      image: rGAa7whgjsxnav333eNEpr1VlGO
+
+  watchAgain:
+    - title: Chicas pesadas
+      image: 9srF91cNDqIrf2HtyMY4GpCtVms
+    - title: Annabelle viene a casa
+      image: jB98SrdXAYSbiprjIwc7WfVCuCV
+    - title: Isla del drama
+      image: uesigtATJKTf38YyUPuxD5X9YGj
+    - title: Viernes 13 (2009)
+      image: j1PzqAMU4LzUnz60q9EEqmeX24n
+    - title: it (eso)
+      image: hWfMYtUhguNzsnDkxlQ3dZNfhjI
+    - title: Ratatouille
+      image: 4Zstpj8BiIrMeR1c8yVWpWunxAs
+    - title: Death Note
+      image: brO0acsI82ikvp7S0yszhbUupiF
+    - title: Como si fuera la primera vez
+      image: lwgI787F1s5mzsOKL4bd4dZgnmy
+
+    - title: 'La Ley y el Orden: Unidad de Víctimas Especiales'
+      image: 84sFzAa4Gea3r2Zh6Qg2lxuJPMO
+    - title: Malcolm el de Enmedio
+      image: 5Nrh0PtHuU41f6F8m5WbGm2iEQa
+    - title: Los Simpson
+      image: hpU2cHC9tk90hswCFEpf5AtbqoL
+    - title: Danny Phantom
+      image: 7xu4vUaxIhehX34p15SoooYxpfL
+    - title: 'KND: Los chicos del barrio'
+      image: 4SZpc7jpBBWMMfY6HeZJkzCmOIk
+    - title: Las Chicas Superpoderosas
+      image: p7l4c1uI05xaGw0N1oXSAw14w75
+    - title: El laboratorio de Dexter
+      image: r98ZfA1CGbLzUnBxm5nHVlMfvvt
+    - title: shaggy y scooby-doo detectives
+      image: 1RVembMXcdUoai9CWMJfDSp5JVJ
+    - title: Drake y Josh
+      image: p18IKZfUeVz1oRfjtUC1UiD1jr8
+    - title: Manual de supervivencia escolar de Ned
+      image: 2jfrCFXvwkbfTNiCTQLLfpEAXIs
+    - title: Hannah Montana
+      image: rGAa7whgjsxnav333eNEpr1VlGO
+    - title: El duende maldito en el barrio
+      image: 8HgPnuTTsyLNw7oeLFwP79NMfip
+    - title: La maldición de la llorona
+      image: 2OKpu0Z6zD4meBQ8bYZb4FtF1bi
+    - title: 'El Tigre: las aventuras de Manny Rivera'
+      image: ktEOv8xxqr8lxno7cO5ewsap46Z
+    - title: Mucha lucha
+      image: YxgCE30aQdxi86LwBflZI5esKV
+    - title: 'Bakugan: la batalla'
+      image: A3SwgVUJRAFftZtTunkYfe8VeTN
+    - title: Cars 2
+      image: 8T4Cc2Cq5xkYcKHoiVlhvIjOeIA
+    - title: 'Madagascar 3: Los Fugitivos'
+      image: pGa4217asjzjepco86110xLWjE4
+    - title: Kung Fu Panda 2
+      image: iKJNE3QV0wEc9VMFuHYSZVhmSN9
+    - title: Megamente
+      image: irpJXGiVr539uuspcQcNdkhS2lq
+    - title: Lluvia de Hamburguesas
+      image: iIvtWOkRgzprh6PRPEdnEcwGyM0
+    - title: Monstros vs aliens
+      image: bpGyWU18xZFTx2fKBBm1um1EPqm

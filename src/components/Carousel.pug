@@ -1,0 +1,17 @@
+mixin Carousel(carouselSections)
+
+  each images, key in carouselSections
+    section.carousel
+    
+      .flex.flex--split
+        h3.carousel__slogan= lang.slogans[key]
+      
+      .carousel__container.carousel__scale
+      
+        .carousel__row.carousel__scale
+          each image in images
+            +tmdb-img(image.image, image.title, 500).carousel__image.carousel__scale
+          
+        button.carousel__button.carousel__button--left.fas.fa-angle-left
+        button.carousel__button.carousel__button--right.fas.fa-angle-right
+          

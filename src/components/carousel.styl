@@ -1,0 +1,61 @@
++b(carousel)
+  padd = 2rem
+  position relative
+  padding padd
+
+  +e(slogan)
+    margin-bottom 1rem
+  
+  +e('scale')
+    width 'calc((100vw - %s) / var(--items))' % (padd * 2)
+    
+  +e(container)
+    --items 1
+    position relative
+    
+  +e(row)
+    sm --items (2 / 30)
+    md --items (3 / 30)
+    xl --items (5 / 30)
+    display flex
+    transition transform .3s
+  
+  +e(image)
+    sm --items 2
+    md --items 3
+    xl --items 5
+    cursor pointer
+    transition transform .3s
+    
+    hover transform scale(1.25) 
+  
+  +e(button)
+    position absolute
+    inset 50% 0
+    transform translateY(-50%)
+    
+    border none 
+    font-size 2rem
+    size 2em 100%
+    
+    colors rgba(grey, 80%) netflix
+    
+    transition background opacity .3s
+    
+    +m(right)
+      left 100%
+      transform translate(-100%, -50%)
+      
+  +e(indicator)
+    cursor pointer
+    size 20px 5px
+    background semi-white
+    hover background white
+    transition background .3s
+    
+    +when(active)
+      background netflix
+  
+  +e(indicators)
+    gap 5px
+      

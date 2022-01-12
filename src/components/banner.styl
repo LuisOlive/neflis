@@ -1,0 +1,29 @@
++b(banner)
+  +e(img)
+    max-height 400px
+  
+  +e(info)
+    display flex
+    flex-wrap wrap
+    flex-arrange start end
+    padding 2em
+    md padding 1.5em
+    gap 1.2em
+
+  +e(button)
+    colors grey-light white
+    border none 
+    padding 1em 2em
+    border-radius 7px
+    cursor pointer
+    transition background-color 0.3s
+    not-sm width 100%
+    
+    .fas
+      margin-right 1em
+      
+    &:hover
+      background grey-lighter
+    
+  +e(title)
+    width 100%

@@ -1,0 +1,48 @@
+- const moviesAndSeries = require('./yml/moviesAndSeries.yml')
+- const lang = require('./yml/languages/spanish.yml')
+
+- const vars = {}
+- const items = [ 'Inicio', 'Series', 'Películas', 'Más recientes', 'Mi lista' ]
+- const is = condition => condition ? 'is-active': ''
+- let isMenuCollapsed = false
+
+include _mixins
+
+mixin tmdb-img(src, title, w='original')
+  img(
+    src=`https://www.themoviedb.org/t/p/${w === 'original'? '': 'w'}${w}/${src}.jpg`
+    alt=`imagen de portada de ${title}`
+  )&attributes(attributes)
+
+block vars
+
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content="Ve películas aquí")
+    
+    title #{vars.title || 'inicio'} - Neflís
+    
+  body
+
+    header.header
+
+      .container.header__main
+        img.header__logo(src="logo.png" alt="Logo de neflís")
+        
+        nav#menu-collapsable.header__nav(class=`${is(isMenuCollapsed)}`): each item, i in items
+          a.header__item(
+            href="#" 
+            class=`${is(item === vars.title)}`)
+            b=item
+          
+        button#menu-collapser.fas.fa-bars.header__burger(role="button" class=`${is(isMenuCollapsed)}`)
+    
+    main
+      block main
+    
+    script(src="https://kit.fontawesome.com/4395a0fcd1.js" crossorigin="anonymous")
+    block scripts 
